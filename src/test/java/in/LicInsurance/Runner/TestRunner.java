@@ -5,15 +5,16 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
-@CucumberOptions(features ="C:\\Users\\balap\\eclipse-workspace\\browser\\LicInsurance\\src\\test\\resources\\Feature\\LifeInsurance.feature",
+@CucumberOptions(features =".\\src\\test\\resources\\Feature\\LifeInsurance.feature",
                    glue= ("in.LicInsurance.StepDefinition"),
                    dryRun=false,
                    monochrome=true,
-                   plugin= ("html:target//cucumber//report.html")
+                   plugin= {"html:target/html","json:target/report.json"}
                      )
 
 public class TestRunner {
 	
 }
+
 
 

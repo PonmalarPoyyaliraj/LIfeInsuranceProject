@@ -26,11 +26,16 @@ And user click Claims settlement requirements option
 And user scroll down in the home page
 Then user click Privacy Policy option 
 
+
 Scenario: User to verify Childrens Money back plan in Childrens future planning page
 When  user scroll down in the Life Insurance Application
 And user click childrens future planning button in the home page
 And user click Know more option in childrens money back plan 
 Then user click Policy document in New childrens money back plan
+And user scroll up in the viewall option
+And user click Licjeevantharun option
+And user click LicJeevan policy link
+Then user click jeevanpolicydocumentlink
 
 
 Scenario Outline: User to validate the table values in the branchcode page
@@ -46,8 +51,6 @@ Then user scroll up and view the values in the branchcode page
 Examples:
 | search   |
 | Chennai  |
-
-
 
 
 

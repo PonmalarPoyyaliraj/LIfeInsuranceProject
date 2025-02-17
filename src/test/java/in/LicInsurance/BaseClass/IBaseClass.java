@@ -6,5 +6,4 @@ public interface IBaseClass {
 	void UserLaunchbrowsers(String string);
 	void inputKeys (WebElement ele, String value);
 	void button (WebElement ele);
-	void buttons (WebElement ele);
 }
